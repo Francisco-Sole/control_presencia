@@ -1,0 +1,107 @@
+@font-face{
+	font-family: "cuerpo";
+	src: url(../font/FUTRFW.ttf) format("truetype");
+}
+
+@font-face{
+	font-family: "titulo_hv";
+	src: url(../font/CaviarDreams_Bold.ttf) format("truetype");
+}
+
+*{
+	margin: 0 0 ;
+	outline: none;
+}
+
+input:-webkit-autofill {
+	-webkit-text-fill-color: #000;
+}
+
+input:-webkit-autofill {
+	-webkit-box-shadow: 0 0 0px 1000px #fff inset;
+}
+
+html{
+	height: 100vh;
+	width: 100vw;
+	overflow-x: hidden;
+	background-color: #47644E;
+}
+
+nav.menu{
+	width: 100%;
+	float: left;
+	display: flex;
+	background-color: #E4ECE2;
+	font-family: cuerpo;
+}
+
+nav.menu ul{
+	display: flex;
+}
+
+nav.menu ul li{
+	list-style-type: none;
+	padding: 15px;
+	cursor: pointer;
+}
+
+nav.menu ul li:hover{
+	background-color: #EBDFCF;
+
+}
+
+aside.submenu{
+	width: 100%;
+	float: left;
+	display: flex;	
+	font-family: cuerpo;
+	background-color: #D4ACA9;
+}
+
+aside.submenu ul{
+	display: flex;
+}
+
+aside.submenu ul li{
+	list-style-type: none;
+	padding: 15px;
+	cursor: pointer;
+}
+
+aside.submenu ul li:hover{
+	background-color: #EBDFCF;
+}
+
+
+.titulo{
+	font-family: "titulo_hv";
+	color: #D4ACA9;
+	font-size: 2.5em;
+	padding: 30px;
+	margin-top: 50;
+	width: 100%;
+	float: left;
+}
+
+.subtitulo{
+	font-family: "titulo_hv";
+	color: #EBDFCF;
+	font-size: 1.5em;
+	width: 100%;
+	margin-bottom: 30px;
+	float: left;
+}
+
+#auxiliar{
+
+}
+
+.campoFormulario{
+	padding: 8px;
+	margin: 5px;
+}
+
+#tablaSeleccionEmpleados tbody tr td: hover{
+	cursor: pointer;
+}
