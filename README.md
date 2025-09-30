@@ -44,7 +44,7 @@ Permite registrar entradas y salidas, consultar horarios y generar reportes bás
 Para importarla:
 
 ```bash
-mysql -u usuario -p control_presencia < BD/schema.sql
+mysql -u usuario -p control_presencia < .php/BD/schema.sql
 ```
 
 # 🚀 Puesta en marcha
